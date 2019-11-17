@@ -13,7 +13,7 @@ import static com.dgh.algorithm.sort.SortHelper.isSorted;
 public class SortRunner {
 
     private static void run(Sort sorter) {
-        int count = 10000;
+        int count = 100000;
         int[] input = new int[count];
         for (int i = 0; i < count; i++) {
             input[i] = ThreadLocalRandom.current().nextInt(count);
@@ -32,5 +32,6 @@ public class SortRunner {
         run(new SelectionSort());
         run(new MergeSort());
         run(new QuickSort());
+        run(new QuickSort2());
     }
 }
