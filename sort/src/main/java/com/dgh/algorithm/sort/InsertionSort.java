@@ -3,6 +3,9 @@ package com.dgh.algorithm.sort;
 import static com.dgh.algorithm.sort.SortHelper.swap;
 
 /**
+ * 核心思路： 把自己插入到前面的有序组合的正确位置
+ * 优化思路： 减少swap（忘记怎么实现了）
+ *
  * @author 丁国航 Meow on 2019-10-29
  */
 public class InsertionSort implements Sort {

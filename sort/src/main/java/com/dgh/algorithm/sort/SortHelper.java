@@ -28,6 +28,7 @@ public final class SortHelper {
     public static void isSorted(int[] data) {
         for (int i = 1; i < data.length; i ++) {
             if (data[i - 1] > data[i]) {
+                System.out.println(Arrays.toString(data));
                 throw new RuntimeException("error sort, index = " + i);
             }
         }

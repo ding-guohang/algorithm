@@ -30,5 +30,7 @@ public class SortRunner {
     public static void main(String[] args) {
         run(new InsertionSort());
         run(new SelectionSort());
+        run(new MergeSort());
+        run(new QuickSort());
     }
 }
