@@ -33,5 +33,6 @@ public class SortRunner {
         run(new MergeSort());
         run(new QuickSort());
         run(new QuickSort2());
+        run(new HeapSort());
     }
 }
